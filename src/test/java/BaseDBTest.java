@@ -9,7 +9,6 @@ public class BaseDBTest {
     protected InsertDocument insertDocument;
     protected QueryDocument queryDocument;
 
-
     @BeforeClass
     public void setup() {
         testDataGeneration = new TestDataGeneration();

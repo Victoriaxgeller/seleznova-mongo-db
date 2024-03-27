@@ -11,7 +11,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@EqualsAndHashCode(callSuper = false)
 public class Post extends CommonDAO {
     private String id;
     private String title;

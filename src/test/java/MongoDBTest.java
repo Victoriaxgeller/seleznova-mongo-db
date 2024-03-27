@@ -9,6 +9,7 @@ import java.util.List;
 
 public class MongoDBTest extends BaseDBTest {
 
+    //TODO add annotations, steps, logic, api calls
 
     @Test
     public void checkDocumentIsInserted() {

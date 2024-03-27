@@ -20,7 +20,6 @@ public class QueryDocument {
         this.mongoDatabase = getDataBase();
     }
 
-
     public Collection<? extends CommonDAO> getDocumentByFieldBaValue(Class<? extends CommonDAO> classType, String field, String value) {
         Bson query = Filters.eq(field, value);
         List postList = find(classType.getSimpleName(), classType, query);

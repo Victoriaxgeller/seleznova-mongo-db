@@ -16,9 +16,9 @@ public class InsertDocument {
     }
 
     public void insertDocument(CommonDAO commonDAO) {
+        //TODO add Logger
         System.out.println(commonDAO.getClassName() + " - " + CommonDAO.class + " - " + commonDAO);
         insert(commonDAO.getClassName(), CommonDAO.class, commonDAO);
-        System.out.println("Insert " + commonDAO.getClassName() + " Successful!");
     }
 
     public void insertDocuments(List<? extends CommonDAO> commonDAOs) {

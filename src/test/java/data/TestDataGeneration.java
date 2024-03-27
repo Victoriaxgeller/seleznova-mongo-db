@@ -4,9 +4,7 @@ import com.github.javafaker.Faker;
 import org.example.dao.Article;
 import org.example.dao.Post;
 
-import javax.print.DocFlavor;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class TestDataGeneration {
     Faker faker = new Faker();

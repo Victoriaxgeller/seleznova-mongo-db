@@ -13,7 +13,6 @@ import java.util.Date;
 @AllArgsConstructor
 @ToString
 public class Article extends CommonDAO {
-
     private int id;
     private String name;
     private String status;

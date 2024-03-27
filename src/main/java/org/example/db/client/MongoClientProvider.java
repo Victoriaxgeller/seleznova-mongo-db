@@ -21,6 +21,7 @@ public class MongoClientProvider {
     }
 
     private static MongoClient connect() {
+        //TODO add global config
         ConnectionString connectionString = new ConnectionString("mongodb://" + "localhost" + ":" + 27017);
 
         CodecRegistry pojoCodecRegistry = CodecRegistries.fromProviders(PojoCodecProvider.builder().automatic(true).build());
