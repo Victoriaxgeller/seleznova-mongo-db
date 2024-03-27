@@ -1,0 +1,8 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(ÚÔ†Óúÿÿÿÿ8üõøŞç1J$c90d0ea8-13e5-4829-aaf6-1aabfad38e94
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Í¼â‡øÿÿÿÿ8¢èßç1J$5220c6a4-1823-4c0c-8c94-f9dd1688cd32
+r	java:S106"+Replace this use of System.out by a logger.(É«äÀùÿÿÿÿ8ıõøŞç1J$076b8f85-545f-45ff-9755-c6193698dcef
+P
+java:S1144".Remove this unused private "insertOne" method.(Ÿ›˜Åøÿÿÿÿ8±œƒßç1
+r
+java:S1144"/Remove this unused private "insertMany" method.(‘Šú§8ÊËøŞç1J$7173dc66-76bb-49b8-9400-9e520e348bac
